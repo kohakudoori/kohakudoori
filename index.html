@@ -63,15 +63,22 @@ body, html {
 .bg-image {
   /* Background image */
   background-image: url("https://raw.githubusercontent.com/kohakudoori/kohakudoori/main/assets/2023-08-31_00.51.45.png");
+  left: -5px;
+  top:-5px;
+  bottom:-5px;
+  position: fixed;
+  right: -5px;
+  z-index: 1;
   
   /* Background image blur and other shit */
   filter: blur(8px);
-  -webkit-filter: blur(8px);
-  height: 100%; 
+  -webkit-filter: blur(6px); 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   transform: scale(1.1); 
+  
+  
 }
 
 /* da box */
